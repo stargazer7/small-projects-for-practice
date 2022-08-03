@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+::selection {
+    background-color: salmon;
+    color: #fff;
+}
+
+body {
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 50px 100px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eeeff1;
+  padding: 15px 100px;
+}
+
+.logo {
+  position: relative;
+  color: #444;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* .logo::before {
+    position: absolute;
+    content: "Civic Renaissance X";
+    font-size: 12px;
+    transform: translateX(12px);
+    bottom: -50%;
+} */
+
+.navbar {
+  display: flex;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar li a {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #444;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar li a:hover {
+    border-bottom: 2px solid #444;
+}
+
+#book {
+  padding: 10px 20px;
+  background-color: salmon;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 0.5rem;
+  transition: all 0.5s ease;
+}
+
+#book:hover {
+  transform: scale(1.1);
+}
+
+.home {
+  max-width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #eeeff1;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#text h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+#text p {
+  margin: 0.5rem 0 1rem;
+}
+
+.store img {
+  width: 150px;
+  cursor: pointer;
+}
+
+#image img {
+  width: 900px;
+  height: 100%;
+}

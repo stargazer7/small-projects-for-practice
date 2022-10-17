@@ -4,7 +4,11 @@ const { path } = require("express/lib/application");
 const app = express();
 
 app.get("/", function (request, response) {
-  response.sendFile(path.join(__dirname, '/index.html'));
+  response.send("Hi");
+});
+
+app.get("/about", function(req, res) {
+  res.send("Hi I'm Abdurrezzak");
 });
 
 app.listen(3000, function () {

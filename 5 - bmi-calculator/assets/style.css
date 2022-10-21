@@ -1,0 +1,93 @@
+:root {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  row-gap: 1rem;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.text-input {
+  width: 156px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ec176d;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.text-input:focus {
+  outline: none;
+  border: 1px solid #ec176d;
+}
+
+#input-height {
+  margin-left: 13px;
+}
+
+#btnCalculate {
+  /* Created with https://www.css-gradient.com */
+  background: #a728aa;
+  background: -webkit-linear-gradient(top left, #a728aa, #ec176d);
+  background: -moz-linear-gradient(top left, #a728aa, #ec176d);
+  background: linear-gradient(to bottom right, #a728aa, #ec176d);
+  color: #fff;
+  width: 256px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+
+  cursor: pointer;
+}
+
+#btnCalculate:active {
+  transform: scale(0.97);
+}
+
+#btnCalculate:focus {
+  outline: none;
+}
+
+#result-section {
+  /*  margin-top: 32px; */
+  padding: 1rem;
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+#result {
+  font-size: 3rem;
+  font-weight: 700;
+}

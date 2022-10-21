@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script src="/assets/script.js" defer></script>
+    <title>BMI Calculator runnig on Node.js !</title>
+  </head>
+  <body>
+    <main id="main-container">
+      <section id="calculator-container">
+        <form id="form" action="/" method="post">
+          <label for="weight"
+            >Your Weight:
+            <input
+              type="text"
+              name="weight"
+              class="text-input"
+              id="input-weight"
+              placeholder="Kilograms"
+            />
+          </label>
+
+          <label for="height"
+            >Your Height:
+            <input
+              type="text"
+              name="height"
+              class="text-input"
+              id="input-height"
+              placeholder="Centimeters"
+            />
+          </label>
+
+          <button type="submit" id="btnCalculate">Am I Obese?</button>
+        </form>
+
+        <section id="result-section">
+          <h1 id="result">22</h1>
+          <p id="message">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+            quibusdam voluptatum quaerat, beatae voluptatibus animi sapiente
+            esse unde molestias enim.
+          </p>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

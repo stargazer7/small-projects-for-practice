@@ -79,6 +79,8 @@ input:active {
   border-radius: 4px;
 
   transition: all 0.3s ease-in-out;
+
+  cursor: pointer;
 }
 
 .btn:focus,

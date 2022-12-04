@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Vertical slider improved (kinda)</title>
+  </head>
+  <body>
+    <!-- MAIN CONTAINER -->
+    <div class="slider-container">
+      <!-- LEFT SLIDE-->
+      <div class="left-slide">
+        <div style="background-color: #222">
+          <h1>Lion</h1>
+          <p>Front of black background.</p>
+        </div>
+        <div style="background-color: rgb(20, 184, 115)">
+          <h1>Kid</h1>
+          <p>Sitting in a hand trolley.</p>
+        </div>
+        <div style="background-color: rgb(219, 250, 41)">
+          <h1>Lemon</h1>
+          <p>Bokeh effect looks fine.</p>
+        </div>
+        <div style="background-color: rgb(39, 175, 253)">
+          <h1>Hamburger</h1>
+          <p>Why do people eat these things.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT SLIDE -->
+      <!-- the first item from left-slide equals to the last item of right-slide -->
+      <div class="right-slide">
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1668837587937-7909f7ccb7d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1669612321204-9408aabf8b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1669198669968-eae87cd9e042?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+          "
+        ></div>
+        <div
+          style="
+            background-image: url('https://images.unsplash.com/photo-1670100053465-aacb32bf96ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+          "
+        ></div>
+      </div>
+
+      <!-- BUTTONS -->
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
